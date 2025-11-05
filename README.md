@@ -2,7 +2,7 @@
 
 A full-stack e-commerce application built with React (TypeScript) frontend and Express.js backend, featuring Firebase authentication and XML-based data storage.
 
-## 🚀 Features
+## Features
 
 ### User Features
 
@@ -29,7 +29,7 @@ A full-stack e-commerce application built with React (TypeScript) frontend and E
 - Networking Equipment, Accessories
 - Software, Speakers, Microphones
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 
@@ -62,7 +62,7 @@ A full-stack e-commerce application built with React (TypeScript) frontend and E
   - `cart.xml` - Shopping cart data
   - `categories.xml` - Product categories
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 e-commerce/
@@ -95,7 +95,7 @@ e-commerce/
     └── dist/                 # Compiled JavaScript files
 ```
 
-## 🚦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -172,14 +172,14 @@ pnpm build
 pnpm start
 ```
 
-## 🔐 Authentication & Authorization
+## Authentication & Authorization
 
 - **Firebase Authentication** for user management
 - **Role-based access control**: Users with `@admin.com` email domain have admin privileges
 - **Protected routes** for authenticated users and admin-only sections
 - **Token-based authentication** with cookie storage (30-day expiration)
 
-## 📊 Data Management
+## Data Management
 
 The application uses XML files for data persistence:
 
@@ -189,7 +189,7 @@ The application uses XML files for data persistence:
 - **Cart**: Shopping cart management per user
 - **Categories**: Product categorization system
 
-## 🎨 UI/UX Features
+## UI/UX Features
 
 - **Responsive Design**: Mobile-first approach with Tailwind CSS
 - **Modern Components**: DaisyUI component library for consistent design
@@ -198,7 +198,7 @@ The application uses XML files for data persistence:
 - **Error Handling**: User-friendly error messages and validation
 - **Accessibility**: Screen reader friendly components
 
-## 🔧 Development Features
+## Development Features
 
 - **TypeScript**: Full type safety across frontend and backend
 - **ESLint**: Code linting and formatting
@@ -206,7 +206,7 @@ The application uses XML files for data persistence:
 - **Lazy Loading**: Code splitting for optimal performance
 - **File Upload**: Multer middleware for product image uploads
 
-## 📝 API Endpoints
+## API Endpoints
 
 ### Authentication
 
@@ -238,7 +238,7 @@ The application uses XML files for data persistence:
 - `GET /api/users` - Get all users (Admin)
 - `DELETE /api/users/:id` - Delete user (Admin)
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -246,16 +246,12 @@ The application uses XML files for data persistence:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the ISC License.
-
-## 🐛 Known Issues
+## Known Issues
 
 - XML-based storage may not be suitable for high-traffic production environments
 - Consider migrating to a proper database (MongoDB, PostgreSQL) for production use
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - Database integration (MongoDB/PostgreSQL)
 - Payment gateway integration (PayPal/Stripe)
